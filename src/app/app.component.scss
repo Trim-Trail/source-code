@@ -1,0 +1,50 @@
+@import '../assets/scss/variables';
+
+.site-banner {
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font: 700 2.5rem/3.125rem "Open Sans", sans-serif;
+    letter-spacing: -0.2px;
+  }
+}
+
+.site-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.scroll-top:link,
+a.scroll-top:visited,
+a.scroll-top:active{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid map-get($site-colors, alpha50) !important;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-right: 1rem;
+  color: map-get($site-colors, alpha25) !important;
+}
+
+a.scroll-top:hover {
+  color: map-get($site-colors, alpha25) !important;
+  border:1px solid map-get($site-colors, alpha25) !important;
+}
+
+.anchor {
+  top: -120px;
+  position: relative;
+  display: block;
+}
+
